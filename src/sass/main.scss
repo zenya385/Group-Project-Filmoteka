@@ -1,0 +1,16 @@
+@import './base/reset';
+
+@import './utils/variables';
+@import './utils/mixin';
+
+@import './components/modal';
+@import './components/modal_footer';
+@import './components/container';
+
+@import './layout/body';
+@import './layout/header';
+@import './layout/products';
+@import './layout/footer';
+@import './layout/spinner';
+@import "./layout/pagination";
+@import './layout/color-switch-theme.scss';

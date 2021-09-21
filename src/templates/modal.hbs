@@ -1,0 +1,46 @@
+<div class="modal-content">
+  <div class='modal__content-picture'>
+    <img class='modal-picture' src='{{poster_path}}' alt=''/>
+  </div>
+  <div class='modal__content-discription'>
+    <h2 class='modal__content-discription-title'>{{title}}</h2>
+    <div class='modal__table'>
+      <table class='modal__table-data'>
+        <tbody>
+        <tr class='modal__table-data-row'>
+          <th class='modal__table-head'>Vote/Votes &emsp;</th>
+          <td class='modal__table-data'>
+            <span class='modal__table-data-votes'>{{vote_average}}</span> &emsp;/&emsp;
+            {{vote_count}}
+          </td>
+        </tr>
+        <tr class='modal__table-data-row'>
+          <th class='modal__table-head'>Popularity &emsp;</th>
+          <td class='modal__table-data'>{{popularity}}</td>
+        </tr>
+        <tr class='modal__table-data-row'>
+          <th class='modal__table-head'>Original Title &emsp;</th>
+          <td class='modal__table-data'>{{title}}</td>
+        </tr>
+        <tr class='modal__table-data-row'>
+          <th class='modal__table-head'>Genre &emsp;</th>
+          {{#each genres}}
+            <td class='modal__table-data'>{{this.name}} </td>
+          {{/each}}
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class='modal__content-discription-about'>About</h3>
+    <p class='modal__content-discription-text'>
+      {{overview}}
+    </p>
+    <div class='modal__add-btns modal-footer'>
+      <button class='modal__btn js-watched' type='button'>add to Watched</button>
+      <button class='modal__btn modal__btn-active js-queue' type='button'>add to queue</button>
+      <button class="trailer is-hidden"></button>
+    </div>
+  </div>
+</div>
+</div>
+</div>

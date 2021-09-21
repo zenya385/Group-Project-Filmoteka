@@ -1,0 +1,23 @@
+{{#each this}}
+  <li class='film-card'>
+    <div class='thumb'>
+      <img
+        src='{{poster_path}}'
+        alt='{{original_title}}'
+        width='350'
+        height='500'
+        data-id='{{id}}'
+      />
+    </div>
+    <div class='description'>
+      <p class='description__title'>
+        {{title}}
+      </p>
+      <p class='description__wrapper'>
+        <span class='description__wrapper-genre'>{{genre_ids}}</span>
+        <span class='description__wrapper-date'>{{release_date}}</span>
+        <span class='description__wrapper-rating'>{{vote_average}}</span>
+      </p>
+    </div>
+  </li>
+{{/each}}
