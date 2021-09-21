@@ -54,4 +54,4 @@ const e={footerLink:document.querySelector(".footer-item-text"),openModalFooter:
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/components/spinner"),require("./js/components/header"),require("./js/components/media"),require("./js/components/modal"),require("./js/components/theme-switch"),require("./js/components/modal_footer");
 },{"./sass/main.scss":"clu1","./js/components/spinner":"mOXT","./js/components/header":"NNYM","./js/components/media":"I7MN","./js/components/modal":"fSkc","./js/components/theme-switch":"Gfoy","./js/components/modal_footer":"EIug"}]},{},["Focm"], null)
-//# sourceMappingURL=/ASpIRiN-M-GoIt/src.0c851ab8.js.map
+//# sourceMappingURL=/Group-Project-Filmoteka/src.41c7137b.js.map
