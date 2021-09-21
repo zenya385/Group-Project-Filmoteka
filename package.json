@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://maximostrovskiy86.github.io/ASpIRiN-M-GoIt",
+  "homepage": "https://zenya385.github.io/Group-Project-Filmoteka",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /ASpIRiN-M-GoIt/"
+    "build": "parcel build src/*.html --public-url /Group-Project-Filmoteka/"
   },
   "repository": {
     "type": "git",
