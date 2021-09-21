@@ -8,7 +8,7 @@ const themeText = {
   enabledWatched: 'Add to Watched',
   disabledWatched: 'Remove from watched',
   enableQueue: 'Add to queue',
-  disableQueue: 'Remove to queue',
+  disableQueue: 'Remove frome queue',
 };
 
 export const changeButtonWatched = (isFind, targetBtn) => {
